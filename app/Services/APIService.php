@@ -29,6 +29,8 @@ abstract class APIService
     }
 
     /**
+     * Will attempt to make the request a total of 3 times, after which it will drop.
+     *
      * @param string $method
      * @param string $url
      * @param int    $attempts

@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-//use App\Integrations\Interfaces\IntegrationInterface as Integration;
 use App\Integrations\RewardGateway\RewardGatewayIntegration as Integration;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
